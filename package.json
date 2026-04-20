@@ -1,0 +1,22 @@
+{
+  "name": "mini-s3",
+  "version": "1.0.0",
+  "description": "A mini S3 file storage service built with Node.js and Express",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "node src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.0",
+    "multer": "1.4.5-lts.1",
+    "better-sqlite3": "^8.7.0",
+    "jsonwebtoken": "^9.0.0",
+    "bcryptjs": "^2.4.3",
+    "uuid": "^9.0.0",
+    "dotenv": "^16.0.0"
+  },
+  "keywords": ["s3", "file-storage", "express", "nodejs"],
+  "author": "",
+  "license": "ISC"
+}
