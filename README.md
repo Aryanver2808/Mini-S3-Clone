@@ -22,16 +22,16 @@ A lightweight S3-compatible file storage service built with Node.js and Express.
 
 ```
 src/
-├── app.js          # Main application file
-├── db.js           # Database connection and schema
+├── app.js         
+├── db.js           
 ├── middleware/
-│   ├── auth.js     # JWT authentication middleware
-│   └── errorHandler.js # Global error handler
+│   ├── auth.js    
+│   └── errorHandler.js 
 └── routes/
-    ├── auth.js     # Authentication routes
-    ├── buckets.js  # Bucket management routes
-    └── files.js    # File operation routes
-uploads/            # File storage directory
+    ├── auth.js     
+    ├── buckets.js 
+    └── files.js   
+uploads/            
 ```
 
 ## Setup
@@ -127,6 +127,3 @@ JWT provides stateless authentication, allowing horizontal scaling and eliminati
 - File compression
 - Batch operations
 
-## Usage
-
-The server listens on the port specified in the `.env` file (default 3000).

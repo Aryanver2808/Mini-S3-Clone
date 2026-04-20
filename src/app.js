@@ -6,8 +6,10 @@ const fs = require('fs');
 const app = express();
 
 // Ensure uploads directory exists
-if (!fs.existsSync('uploads')) {
-  fs.mkdirSync('uploads', { recursive: true });
+const fs = require('fs');
+const uploadDir = 'uploads/';
+if (!fs.existsSync(uploadDir)) {
+  fs.mkdirSync(uploadDir, { recursive: true });
 }
 
 app.use(express.json());
